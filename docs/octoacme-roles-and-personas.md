@@ -1,81 +1,116 @@
-# OctoAcme Personas
-
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
-
 ---
-
-## Developers
+## UX Designer
 
 ### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+UX Designers shape user experience and usability. They create wireframes and prototypes, run usability tests, and ensure user feedback informs design iterations.
 
 ### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+- Produce wireframes, mockups, and prototypes
+- Run usability testing and interviews
+- Synthesize findings to improve product experience
+- Work closely with Product Managers on requirements and priorities
+- Collaborate with Developers to ensure feasible, high-quality design implementation
 
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
-
-### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
+### Typical Interactions
+- Product Managers (inputs/feedback, product goals)
+- Developers (hand-off, feasibility)
+- QA (feedback loop on usability issues)
 
 ---
-
-## Product Managers
+## DevOps / Platform Engineer
 
 ### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+DevOps and Platform Engineers automate and monitor infrastructure, build CI/CD pipelines, and support stable software delivery.
 
 ### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
+- Maintain and improve CI/CD systems
+- Automate build, test, and deployment workflows
+- Monitor and maintain infrastructure health
+- Enforce operational best practices and incident playbooks
 
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
-
-### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
+### Typical Interactions
+- Developers (environment setup, pipeline integration)
+- QA (test automation infrastructure)
+- Project Managers (deployment planning, scheduling)
 
 ---
-
-## Project Managers
+## QA Engineer / Test Lead
 
 ### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+QA Engineers/Test Leads ensure product quality by defining, executing, and automating test plans.
 
 ### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
+- Design and execute test cases/plans
+- Automate regression suites as appropriate
+- Define acceptance criteria with Product/Developers
+- Report and track bugs, drive improvements
 
-### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
-
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+### Typical Interactions
+- Developers (fixes, testability)
+- Product Managers (clarifying features/test scope)
+- DevOps (test env, automation infrastructure)
+- Stakeholders (release readiness)
 
 ---
+## Data Analyst / Scientist
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+### Role Summary
+Data Analysts/Scientists provide actionable insights and data-driven direction for the product and team.
 
+### Responsibilities
+- Design and implement analytics/reporting
+- Guide hypotheses and experiments for new features
+- Validate success criteria post-release
+- Share findings for continuous improvement
+
+### Typical Interactions
+- Product Managers (metrics definitions, analysis)
+- Developers (data instrumentation)
+- Teams (data-driven decision-making)
+
+---
+## Business Analyst
+
+### Role Summary
+Business Analysts bridge business needs and the technical team, ensuring clarity, feasibility, and traceability of objectives.
+
+### Responsibilities
+- Document and map business workflows
+- Translate requirements into actionable user stories/specs
+- Align stakeholders and track constraints
+
+### Typical Interactions
+- Stakeholders (gather needs, feedback)
+- Product Managers/Developers (requirements validation)
+
+---
+## Customer Support Lead
+
+### Role Summary
+Customer Support Leads represent the voice of the customer, managing user feedback, escalations, and communications.
+
+### Responsibilities
+- Collect and report user feedback/bugs
+- Participate in incident response
+- Collaborate on release documentation/communications
+
+### Typical Interactions
+- Product Managers (feature requests, bug trends)
+- Developers (clarity on support issues)
+- Project Managers (impact assessment)
+
+---
+## Stakeholder Groups (e.g., Legal, Sales, Marketing, Security)
+
+### Role Summary
+Stakeholder groups provide inputs, approvals, and assessments that shape project direction and manage risks.
+
+### Responsibilities
+- Influence or validate requirements
+- Review key stages/milestones
+- Approve releases, changes as required
+
+### Typical Interactions
+- Product Managers (requirements, priorities)
+- Project Managers (risk assessment, approvals)
+- Developers (requirements/constraints)
